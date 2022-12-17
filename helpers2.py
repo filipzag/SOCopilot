@@ -3,7 +3,7 @@ class Process():
     def __init__(self, name, id, parent_id):
         self.__name = name
         self.__id = id
-        self.__parent_id = parent_id
+        self.__parent_id = None
         self.__children = None
 
     def get_name(self):
