@@ -2,3 +2,5 @@ jupyter
 elasticsearch
 networkx=2.8.8
 jinja2
+polars
+json
